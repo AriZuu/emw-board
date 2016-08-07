@@ -1,0 +1,5 @@
+*.bck
+*.bak
+*-bak
+emw-board-cache.lib
+fp-lib-table
