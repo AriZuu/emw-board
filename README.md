@@ -17,7 +17,9 @@ Second is [emw-sensor][2], which uses 1-wire devices to measure temperature
 and send it to MQTT server.
 
 This is Open Source Hardware, licensed under [CC-BY 4.0][3].
+There are [some notes about the board][4] in my blog.
 
 [1]: https://github.com/AriZuu/emw-meter
 [2]: https://github.com/AriZuu/emw-sensor
 [3]: https://creativecommons.org/licenses/by/4.0/
+[4]: http://stonepile.fi/1-wire-wifi-sensor/
