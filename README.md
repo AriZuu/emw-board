@@ -9,7 +9,7 @@ board has:
 - SWD connector for programming
 - Two alternative power supplies (solder only one):
   - MCP1640 step-up converter, provides 3.3V from 2 AA batteries
-  - MAX604 LDO reguulator, provides 3.3V from 3 AAA batteries or from console FTDI
+  - MAX604 LDO regulator, provides 3.3V from 3 AAA batteries or from console FTDI
 
 I have written two firmware alternatives for board. First 
 is [emw-meter][1], which displays temperatures and house power usage. 
