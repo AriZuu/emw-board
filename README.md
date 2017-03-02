@@ -1,7 +1,7 @@
 EMW3165 sensor board
 ====================
 
-Kicad stuff for EMW3165 based sensor board. This small
+Kicad stuff for EMW3165 based sensor board v2. This small
 board has:
 
 - EMW3165 module
