@@ -1022,7 +1022,7 @@ U 1 1 58B07A4E
 P 5750 5650
 F 0 "P4" H 5750 5950 50  0000 C CNN
 F 1 "SWDN" H 5750 5350 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x05_Pitch1.27mm_SMD" H 5750 4450 50  0001 C CNN
+F 2 "stonepile:swd_connector_2x05_Pitch1.27mm_SMD" H 5750 4450 50  0001 C CNN
 F 3 "" H 5750 4450 50  0000 C CNN
 	1    5750 5650
 	1    0    0    -1  
