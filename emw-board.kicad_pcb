@@ -5,7 +5,7 @@
     (no_connects 0)
     (area 103.429459 50.846666 163.905001 104.093333)
     (thickness 1.6)
-    (drawings 38)
+    (drawings 37)
     (tracks 625)
     (zones 0)
     (modules 36)
@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 0.5)
+    (last_trace_width 0.25)
     (user_trace_width 0.25)
     (user_trace_width 0.5)
     (trace_clearance 0.2)
@@ -1776,9 +1776,6 @@
     (effects (font (size 1 1) (thickness 0.15)) (justify right mirror))
   )
   (gr_text PB9 (at 156.21 97.79 90) (layer B.SilkS) (tstamp 579B5675)
-    (effects (font (size 1 1) (thickness 0.15)) (justify right mirror))
-  )
-  (gr_text PB8 (at 153.67 97.79 90) (layer B.SilkS) (tstamp 579B566E)
     (effects (font (size 1 1) (thickness 0.15)) (justify right mirror))
   )
   (gr_text PB6 (at 151.13 97.79 90) (layer B.SilkS) (tstamp 579B5665)
