@@ -1,4 +1,4 @@
-update=2/24/2017 7:02:52 PM
+update=5/21/2017 10:32:24 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,4 @@ LibName27=contrib
 LibName28=valves
 LibName29=xilinx
 LibName30=stonepile
+LibName31=switches
