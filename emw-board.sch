@@ -30,6 +30,7 @@ LIBS:valves
 LIBS:xilinx
 LIBS:stonepile
 LIBS:switches
+LIBS:emw-board-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -318,17 +319,6 @@ F 2 "" H 1150 5900 50  0000 C CNN
 F 3 "" H 1150 5900 50  0000 C CNN
 	1    1150 5900
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Jumper_NO_Small JP1
-U 1 1 578D326C
-P 1250 5050
-F 0 "JP1" V 1250 5098 50  0000 L CNN
-F 1 "Jumper_NO_Small" H 1260 4990 50  0001 C CNN
-F 2 "Resistors_SMD:R_0603" H 1250 5050 50  0001 C CNN
-F 3 "" H 1250 5050 50  0000 C CNN
-	1    1250 5050
-	-1   0    0    1   
 $EndComp
 Text GLabel 5050 3700 0    60   Input ~ 0
 SPI4_CLK
@@ -861,11 +851,7 @@ Wire Wire Line
 	1650 5700 1650 5050
 Connection ~ 1050 1500
 Wire Wire Line
-	1650 5050 1350 5050
-Wire Wire Line
 	650  1000 650  5050
-Wire Wire Line
-	650  5050 1150 5050
 Wire Wire Line
 	3550 6850 4200 6850
 Wire Wire Line
@@ -1154,8 +1140,40 @@ NoConn ~ 6150 5650
 NoConn ~ 6150 5750
 Wire Wire Line
 	4700 3300 5200 3300
-Wire Wire Line
-	5200 4300 650  4300
-Connection ~ 650  4300
 NoConn ~ 950  6350
+$Comp
+L GS3 GS2
+U 1 1 59244B04
+P 1450 4300
+F 0 "GS2" H 1500 4500 50  0000 C CNN
+F 1 "GS3" H 1500 4101 50  0000 C CNN
+F 2 "GS3" V 1538 4226 50  0000 C CNN
+F 3 "" H 1450 4300 50  0000 C CNN
+	1    1450 4300
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	1600 4300 5200 4300
+Wire Wire Line
+	1300 4200 1300 3800
+Connection ~ 1300 3800
+Wire Wire Line
+	1300 4400 650  4400
+Connection ~ 650  4400
+$Comp
+L GS2 GS1
+U 1 1 5924537B
+P 1100 5050
+F 0 "GS1" H 1200 5200 50  0000 C CNN
+F 1 "GS2" H 1200 4901 50  0000 C CNN
+F 2 "GS2" V 1174 5050 50  0000 C CNN
+F 3 "" H 1100 5050 50  0000 C CNN
+	1    1100 5050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	650  5050 900  5050
+Wire Wire Line
+	1650 5050 1300 5050
+NoConn ~ 5350 5750
 $EndSCHEMATC
